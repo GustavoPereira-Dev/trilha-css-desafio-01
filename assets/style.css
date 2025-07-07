@@ -1,0 +1,166 @@
+  /* Reset e base */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+  }
+
+  .border-bottom{
+    border-bottom: 1px solid rgba(21, 97, 105, 0.80);
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1080px;
+    margin: auto;
+    text-align: center;
+  }
+
+  #title-trilha{
+    color: #248DC9;
+  }
+  
+  /* Header Hero */
+
+  .hero {
+    padding: 60px 20px;
+    background-image: 
+      linear-gradient(to bottom, transparent, rgba(21, 97, 105, 0.50), transparent),
+      url('images/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+  }
+
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #aaa;
+  }
+  
+  .cta-button {
+    background-color: transparent;
+    color: #00bfff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    border: 1px solid #00bfff;
+    transition: background 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: hsla(195, 88%, 68%, 0.50);
+  }
+  
+  /* Aprendizado */
+  .aprendizado {
+    background-color: #111;
+    padding: 50px 20px;
+  }
+  
+  .aprendizado h2 {
+    color: #33A8DB;
+    margin-bottom: 10px;
+  }
+  
+  .aprendizado .modules {
+    list-style: none;
+    padding: 20px 0;
+  }
+  
+  .modules li {
+    background: #222;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 40px;
+    border: 2px solid rgba(21, 97, 105, 0.50);
+    max-width: 600px;
+  }
+  
+  .modules li:hover {
+    background-color: hsla(195, 88%, 68%, 0.05);
+    cursor: pointer;
+  }
+  
+
+  li span{
+    color: rgb(26, 106, 143);
+  }
+
+  #footer-span{
+    color: aqua;
+  }
+  
+  /* Banner */
+  .banner-transform {
+    background: url('images/woman-code.png') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+  }
+  
+  .overlay-text {
+    font-size: 2rem;
+    margin-left: 10%;
+    text-shadow: 1px 1px 4px #000;
+    font-weight: bold;
+  }
+  
+  /* Desafios */
+  .desafios {
+    padding: 50px 20px;
+    background-color: #0f0f0f;
+  }
+  
+  .desafios h2 {
+    color: #33A8DB;
+    margin-bottom: 10px;
+  }
+  
+  #h2-desafios{
+    letter-spacing: 4px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: linear-gradient(to bottom, transparent, rgba(21, 97, 105, 0.30));
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .overlay-text {
+      font-size: 1.5rem;
+      margin-left: 5%;
+    }
+  }
+  
